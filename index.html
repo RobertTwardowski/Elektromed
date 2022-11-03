@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elektromed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7117492f21.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="home" >
+    
+        <header class="hero">
+            <div class="navbar">
+                <h1 class="logo">
+                <span class="heroSpan"><i class="fa-sharp fa-solid fa-bolt"></i>Elektro</span>Med
+                </h1>
+                <nav>
+                    <button class="burger">
+                        <i class="fas fa-bars"></i>
+                        <i class="fas fa-times hidden"></i>
+                    </button>
+                    <ul>
+                        <li><a href="#home">Strona Główna</a></li>
+                        <li><a href="#offer">Oferta</a></li>
+                        <li><a href="#about">O Firmie</a></li>
+                        <li><a href="#photo">Galeria</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="content">
+                <h2>Zaprojektujemy Twoją Instalację</h2>
+                <p>Bezpiecznie i Szybko Ją Wykonamy</p>
+                <a href="#about" class="btn"><i class="fa-regular fa-lightbulb"></i> Czytaj Więcej</a>
+            </div>
+        </header>
+    <main>
+        <section id="offer" class="primary">
+            <div class="flex-box">
+                <div>
+                    <i class="fa-solid fa-plug fa-3x"></i>
+                    <h3>Pomiary elektryczne</h3>
+                    <p>Pomiary instalacji elektrycznych w budynkach jedno i wielorodzinnych, obiektach użyteczności publicznej.</p>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-bolt fa-3x"></i>
+                    <h3>Serwis i Naprawa</h3>
+                    <p>Usuwanie wszelkich awarii elektrycznych. Badania skuteczności ochrony przeciwporażeniowej</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-lightbulb fa-3x"></i>
+                    <h3>Instalacje Elektryczne</h3>
+                    <p>montaż, wymiana, modernizacje, naprawa. Montaż instalacji elektrycznej na podstawie dostarczonego projektu.</p>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-bolt-lightning fa-3x"></i>
+                    <h3>Projektowanie Instalacji</h3>
+                    <p>Tworzymy dokumentację w oparciu o wymagania indywidualne.</p>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="flex-items">
+                <div class="column">
+                    <img src="img/Monter.jpg" alt="monter">               
+                </div>
+                <div class="column">
+                    <div class="column column-1">
+                    <h4>Rok Założenia 2010 rok</h4>
+                    <h3>12 lat doświadczenia</h3>
+                    <p>Naszym celem jest rozwijanie umiejętności zawodowych, nabywanie coraz większego doświadczenia, aby <strong>jakość oferowanych usług</strong> 
+                        była na najwyższym poziomie. Zatrudniamy doświadczonych pracowników, którzy posiadają niezbędne uprawnienia do wykonywania robót elektrycznych.</p>
+                        <p>Do każdego zlecenia podchodzimy indywidualnie, na każdym etapie prac dokładamy wszelkich starań aby klient w sposób czytelny i zrozumiały mógł obserwować postęp i fachowość w wykonywanej przez nas usłudze. 
+                            Staramy się wszystkie zlecone pracy wykonywać w ustalonym terminie i w ustalonym budżecie. Wszystkie występujące zmiany czy opóźnienia w procesie realizacji danej usługi są zawsze na bieżąco uzgadniane z klientem.</p>
+                    <a href="#about" class="btn-1"><i class="fa-regular fa-lightbulb"></i> Kontakt</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="photo">
+            <div class="header">
+                <h4>Tak wykonujemy swoją pracę</h4>
+                <h3>Zobacz naszą Galerię</h3> 
+                <p>Poniżej przedstawiamy państwu kilka fotografii z wybranych prac realizowanych przez naszą firmę.</p>
+            </div>  
+            <div class="photo">
+            <ul class="gallery">
+                <li class="photo-show"><img src="img/photo/photo1.jpg" alt=""></li>
+                <li class="photo-show"><img src="img/photo/photo2.jpg" alt=""></li>
+                <li class="photo-show"><img src="img/photo/photo3.jpg" alt=""></li>
+                <li class="photo-show"><img src="img/photo/photo4.jpg" alt=""></li>
+                <li class="photo-show"><img src="img/photo/photo5.jpg" alt=""></li>
+                <li class="photo-show"><img src="img/photo/photo6.jpg" alt=""></li>
+                <li class="photo-show"><img src="img/photo/photo8.jpg" alt=""></li>
+                <li class="photo-show"><img src="img/photo/photo10.jpg" alt=""></li>   
+            </ul>
+            <div class="popup hidden">
+                <button class="popup-close">X</button>
+                <button class="arrow-rigt">></button>
+                <button class="arrow-left"><</button>
+                <img src="" alt="" class="popup-img">
+            </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="flex-items contact">
+                <div class="column column-2">
+                    <h3>Zostaw Swoje dane Kontaktowe:</h3>
+                    <p class="finish"></p>
+                      <input class="input name" type="text" placeholder="Imię i Nazwisko">
+                      <p class="error-name"></p>
+                      <input class="input mail" type="mail" placeholder="email">
+                      <p class="error-mail"></p>
+                      <input class="input number" type="text" placeholder="numer telefonu">
+                      <p class="error-number"></p>
+                      <button class="btn-2">Wyślij</button>
+                    
+                </div>
+                <div class="column">
+                    <div class="column column-1">
+                        <h2 class="logo">
+                            <span class="heroSpan"><i class="fa-sharp fa-solid fa-bolt"></i>Elektro</span>Med
+                            </h2>
+                    <h3>Dane Frimy:</h3>
+                    <p>Telefon: (+48) 555 555 555</p>
+                    <p>Email: aaaa@gmail.com</p>
+                    <p>Adres: Pabianice 20 Stycznia 10/10</p>
+                    <p>Pon-Pt 7:00 - 16:00</p>      
+                    <p>Sob. 7:00 - 13:00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+        <p>Copyright &copy; 2022 - ElektroMed</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
