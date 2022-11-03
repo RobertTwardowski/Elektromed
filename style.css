@@ -357,7 +357,7 @@ footer p{
         padding-top: 50px;
         position: absolute;
         height: 100vh;
-        width: 300px;
+        width: 350px;
         left: -350px;
         list-style: none;    
         background-color: rgb(255, 255, 255);
@@ -392,7 +392,7 @@ footer p{
   }
     
     .active {
-        transform: translateX(300px)
+        transform: translateX(350px)
     
     }
 .flex-box{
