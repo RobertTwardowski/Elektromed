@@ -21,15 +21,6 @@ const navBurger = document.querySelector('nav ul')
 
 let imgIndex
 
-// Menu
-window.onscroll = () => {
-    if(window.pageYOffset < 200){
-        nav.classList.remove('top')
-    }
-    else{
-        nav.classList.add('top')
-    }
-}
 const handleNav = () =>{
     navBurger.classList.toggle('active')
     burgerBtn.classList.toggle('active')
