@@ -129,15 +129,13 @@ h2 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100%;
     padding: 2rem;
+    margin: 4rem;
+}
+.flex-box >div{
+    flex: 25%;
 }
 
-.flex-box>div {
-    padding: 1.2rem;
-    width: 25%;
-    margin: 2rem;
-}
 
 
 .primary i {
@@ -405,13 +403,10 @@ footer p {
         height: 10vh;
     }
 
-    .flex-box {
-        flex-direction: column;
-    }
+   .flex-box{
+    margin: 0;
+   }
 
-    .flex-box>div {
-        width: 100%;
-    }
 
     #photo {
         position: relative;
